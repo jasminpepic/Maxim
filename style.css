@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  /* Da div ne menja velicinu, 
+  vec ako je potrebno da se smanje elementi unutar div-a */
+}
 body {
   margin: 0px;
   overflow-x: hidden;
@@ -42,7 +47,7 @@ body {
   align-items: center;
   margin-left: 10%;
 }
-.listaNavigacijaTekst {
+.listaNavigacijaText {
   cursor: pointer;
   color: rgb(187, 176, 176);
   font-size: 15px;
@@ -89,15 +94,64 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .aboutImg {
-  width: 43%;
+  width: 42%;
   height: 80%;
-  background-color: blue;
+}
+.imgAbout {
+  width: 100%;
+  height: 100%;
 }
 .aboutContainer {
   width: 43%;
   height: 80%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aboutMiniContainer {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  /* background-color: red; */
+}
+.aboutIcon {
+  width: 10%;
+  height: 100%;
+  /* background-color: blue; */
+}
+.aboutMiniIcon {
+  width: 100%;
+  height: 50%;
+}
+.aboutMiniText {
+  display: flex;
+  flex-direction: column;
+}
+.aboutTitle {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0px;
+}
+.aboutText {
+  font-size: 20px;
+  margin-top: -15px;
+}
+.aboutMiniSubtitle {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  margin-left: 10px;
+}
+.aboutMiniMiniText {
+  font-size: 20px;
+  color: rgb(158, 149, 149);
+  margin-top: 0px;
+  margin-left: 10px;
 }
