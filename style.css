@@ -118,8 +118,7 @@ body {
   width: 100%;
   height: 20%;
   display: flex;
-  margin-bottom: 40px;
-  background-color: red;
+  /* background-color: red; */
 }
 .aboutIcon {
   width: 10%;
@@ -141,7 +140,7 @@ body {
 }
 .aboutText {
   font-size: 20px;
-  margin-top: 0px;
+  margin-top: -15px;
 }
 .aboutMiniSubtitle {
   font-size: 25px;
