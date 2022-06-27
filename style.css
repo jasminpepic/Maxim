@@ -171,8 +171,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px black solid;
-  background-color: red;
+  border-bottom: 1px #1bac92a4 solid;
+  /* background-color: red; */
 }
 .table2 {
   width: 85%;
@@ -181,21 +181,36 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  /* background-color: blue; */
 }
-/* .table1-1-3 {
-  border-bottom: 1px black solid;
+.table-border-right {
+  border-right: 1px #1bac92a4 solid;
+  width: 33%;
+  height: 100%;
+  padding: 40px;
+  display: inline-block;
 }
-.table1-2 {
-  border-bottom: 1px black solid;
-  border-left: 1px black solid;
-  border-right: 1px black solid;
+.table-border-none {
+  width: 33%;
+  height: 100%;
+  padding: 40px;
+  display: inline-block;
 }
-.table2-1-3 {
-  border-top: 1px black solid;
+.tableNumber {
+  color: #1bac91;
+  font-size: 24px;
+  font-weight: 400;
 }
-.table2-2 {
-  border-top: 1px black solid;
-  border-left: 1px black solid;
-  border-right: 1px black solid;
-} */
+.tableSubtitle {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0;
+  margin: 20px 0;
+  color: #21413c;
+}
+.tableText {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
